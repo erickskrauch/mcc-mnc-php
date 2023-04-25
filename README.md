@@ -7,7 +7,7 @@ A very rough implementation, but it does exactly what I needed for my job. Feel 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/erickskrauch/mcc-mnc.svg?style=flat-square)](https://packagist.org/packages/erickskrauch/mcc-mnc)
 [![Build Status](https://img.shields.io/github/actions/workflow/status/erickskrauch/mcc-mnc-php/ci.yml?branch=master&style=flat-square)](https://github.com/erickskrauch/mcc-mnc-php/actions)
 [![Changelog](https://img.shields.io/badge/changelog-Keep%20a%20Changelog-%23E05735?style=flat-square)](CHANGELOG.md)
-[![PHP version](https://img.shields.io/packagist/dependency-v/erickskrauch/mcc-mnc-php/php?style=flat-square)](composer.json)
+[![PHP version](https://img.shields.io/packagist/dependency-v/erickskrauch/mcc-mnc/php?style=flat-square)](composer.json)
 [![Software License](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](LICENSE)
 
 ## Installation
