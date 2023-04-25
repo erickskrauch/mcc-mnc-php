@@ -1,0 +1,52 @@
+{
+    "name": "erickskrauch/mcc-mnc",
+    "description": "A library to convert MCC to country code and vice-versa",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "MCC",
+        "MNC",
+        "E212",
+        "countries",
+        "ISO 3166"
+    ],
+    "authors": [
+        {
+            "name": "ErickSkrauch",
+            "email": "erickskrauch@ely.by"
+        }
+    ],
+    "homepage": "https://github.com/erickskrauch/mcc-mnc-php",
+    "require": {
+        "php": "^7.4 || ^8.0"
+    },
+    "require-dev": {
+        "ely/php-code-style": "^0.5.0",
+        "ergebnis/composer-normalize": "^2.28",
+        "nette/php-generator": "^3.6",
+        "phpunit/phpunit": "^9.6",
+        "symfony/dom-crawler": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ErickSkrauch\\MccMnc\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ErickSkrauch\\MccMnc\\Tests\\": "tests/"
+        }
+    },
+    "archive": {
+        "exclude": [
+            "/generate.php",
+            "/tests"
+        ]
+    },
+    "config": {
+        "allow-plugins": {
+            "ergebnis/composer-normalize": true
+        },
+        "sort-packages": true
+    }
+}
