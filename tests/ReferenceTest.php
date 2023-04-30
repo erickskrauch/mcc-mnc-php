@@ -14,7 +14,11 @@ use PHPUnit\Framework\TestCase;
 final class ReferenceTest extends TestCase {
 
     public function testCountryFromExistsMcc(): void {
-        $this->assertSame('PL', Reference::countryFromMcc(260));
+        $this->assertSame(['PL'], Reference::countryFromMcc(260));
+    }
+
+    public function testCountryFromExistsMccForMultipleCountries(): void {
+        $this->assertSame(['GU', 'MP', 'US'], Reference::countryFromMcc(310));
     }
 
     public function testCountryFromUnknownMcc(): void {
@@ -23,7 +27,7 @@ final class ReferenceTest extends TestCase {
     }
 
     public function testMccFromExistsCountry(): void {
-        $this->assertSame(260, Reference::mccFromCountry('PL'));
+        $this->assertSame([260], Reference::mccFromCountry('PL'));
     }
 
     public function testMccFromUnknownCountry(): void {

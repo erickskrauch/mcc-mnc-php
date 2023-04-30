@@ -1,6 +1,6 @@
 # PHP database of MCC network ids
 
-I couldn't find any existing libraries with [MCC](https://en.wikipedia.org/wiki/Mobile_country_code) identifiers map to their according country. So I made my own. The data is parsed from the [mcc-mnc.com](https://www.mcc-mnc.com) website.
+I couldn't find any existing libraries with [MCC](https://en.wikipedia.org/wiki/Mobile_country_code) identifiers map to their according country. So I made my own. The data is parsed from this [wikipedia](https://en.wikipedia.org/wiki/Mobile_country_code#National_operators) table.
 
 A very rough implementation, but it does exactly what I needed for my job. Feel free to [open an issue](https://github.com/erickskrauch/mcc-mnc/issues/new) with your feature request. 
 
