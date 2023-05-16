@@ -9,7 +9,7 @@ final class Reference {
 
     /**
      * @return string[]
-     * @phpstan-return non-empty-array<string[]>
+     * @phpstan-return non-empty-array<string>
      * @throws \ErickSkrauch\MccMnc\UnknownException
      */
     public static function countryFromMcc(int $mcc): array {
@@ -29,7 +29,7 @@ final class Reference {
 
     /**
      * @return int[]
-     * @phpstan-return non-empty-array<int[]>
+     * @phpstan-return non-empty-array<int>
      * @throws \ErickSkrauch\MccMnc\UnknownException
      */
     public static function mccFromCountry(string $countryCode): array {
@@ -43,7 +43,7 @@ final class Reference {
     }
 
     /**
-     * @return array{array{code: string, mcc: int}}
+     * @return array<array{code: string, mcc: int}>
      */
     private static function getData(): array {
         if (self::$data === null) {
